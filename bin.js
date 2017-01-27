@@ -17,7 +17,7 @@ var length = isNaN(parseInt(args[0])) ? 5 : parseInt(args.shift())
 
 var cmd = args.shift()
 
-if (cmd) childProcess.spawn(cmd, args).on('exit', benny)
+if (cmd) childProcess.spawn(cmd, args, { stdio: 'inherit' }).on('exit', benny)
 else benny()
 
 function benny () {
