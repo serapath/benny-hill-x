@@ -1,0 +1,29 @@
+{
+  "name": "benny-hill-x",
+  "version": "1.0.0",
+  "description": "Play the Benny Hill theme for x (default 5) seconds after running another command",
+  "bin": {
+    "benny-hill-x": "./bin.js"
+  },
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serapath/benny-hill-x.git"
+  },
+  "author": "@serapath",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/serapath/benny-hill-x/issues"
+  },
+  "homepage": "https://github.com/serapath/benny-hill-x",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "benny",
+    "hill",
+    "benny hill"
+  ]
+}
