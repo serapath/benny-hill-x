@@ -1,6 +1,10 @@
 # benny-hill-x
 Play the Benny Hill theme for x (default 5) seconds after running another command
 
+inspiration comes from the [`benny-hill`](https://www.npmjs.com/package/benny-hill) module from [@mafintosh](https://www.npmjs.com/~mafintosh)
+
+# usage
+
 ```
 npm install -g benny-hill-x
 
